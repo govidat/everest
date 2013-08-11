@@ -6,7 +6,7 @@ var mybuf;
 
 app.use(express.logger());
 
-mybuf = fs.readFileSync("index.html");
+mybuf = fs.readFileSync("index1.html");
 
 
 app.get('/', function(request, response) {
